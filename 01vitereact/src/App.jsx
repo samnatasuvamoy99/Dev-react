@@ -1,10 +1,15 @@
-
+    import Rect from "./first"
 
 function App() {
 
 
   return (
-   <h1> suvamoy samnata with vite </h1>
+    <>
+    <Rect/>
+    <h1> hay my name is suvamoy samanta </h1>
+    <p> i am currentily pursuing b.tech in computer science and engeering</p>
+    </>
+   
   )
 }
 
