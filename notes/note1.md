@@ -13,3 +13,8 @@ const reactelement = React.createElement(
  const [counter ,setcounter] = useState(15)  // hooks 
  1.counter is veriable
  and 2nd is function jo responce kerte he 
+
+ ## open cd
+ npm install -D tailwindcss@3 postcss autoprefixer ---> tailwind
+
+npm create vite@latest -- vite
