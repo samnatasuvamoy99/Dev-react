@@ -5,12 +5,14 @@ import './App.css'
 
 function App() {
     
-     let [counter ,setcounter] = useState(15)  // hooks 
+     const [counter ,setcounter] = useState(15)  // hooks 
   //let counter =5
     const addValue =() =>{
           console.log("Clicked" ,counter);
            counter = counter + 1;
           setcounter(counter); // newvalue update kerta he 
+
+          setcounter( prevcounter => prevcounter+1) // counter value ko 1 step increasing kerne ke liya  y method he
     }
 
     const removevalue=() =>{

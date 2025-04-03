@@ -15,6 +15,8 @@ const reactelement = React.createElement(
  and 2nd is function jo responce kerte he 
 
  ## open cd
- npm install -D tailwindcss@3 postcss autoprefixer ---> tailwind
+ npm install -D tailwindcss@3 postcss autoprefixer
+ npx tailwindcss init -p
+  ---> tailwind
 
 npm create vite@latest -- vite
