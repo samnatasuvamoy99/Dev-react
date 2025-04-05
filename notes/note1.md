@@ -14,9 +14,18 @@ const reactelement = React.createElement(
  1.counter is veriable
  and 2nd is function jo responce kerte he 
 
+
+ ##
+ const passwordGenerator = useCallback( () => {   // this is usecallback  hooks first declear fn then arry
+           let pass=""
+           let str="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+            } , [ length , numberAllowed , charAllow ,setpassword])
+
+
  ## open cd
  npm install -D tailwindcss@3 postcss autoprefixer
  npx tailwindcss init -p
   ---> tailwind
 
 npm create vite@latest -- vite
+
