@@ -21,6 +21,11 @@ const reactelement = React.createElement(
            let str="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
             } , [ length , numberAllowed , charAllow ,setpassword])
 
+ ## useeffect
+      it will use any create password or  as that value will be changes some time any methid that you will be use own your code  
+       it will update automatically ui or display
+                  
+
 
  ## open cd
  npm install -D tailwindcss@3 postcss autoprefixer
