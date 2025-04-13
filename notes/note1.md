@@ -26,7 +26,10 @@ const reactelement = React.createElement(
        it will update automatically ui or display
                   
 
-
+## make router in react inside a array then into obj
+const router =createBrowserRouter([
+  
+]) 
  ## open cd
  npm install -D tailwindcss@3 postcss autoprefixer
  npx tailwindcss init -p
