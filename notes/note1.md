@@ -30,6 +30,13 @@ const reactelement = React.createElement(
 const router =createBrowserRouter([
   
 ]) 
+
+## context
+   make a variable then export that variable
+   
+      const UserContext = React.createContext()
+        export default UserContext
+
  ## open cd
  npm install -D tailwindcss@3 postcss autoprefixer
  npx tailwindcss init -p
