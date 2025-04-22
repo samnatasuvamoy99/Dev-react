@@ -43,5 +43,8 @@ const router =createBrowserRouter([
  npx tailwindcss init -p
   ---> tailwind
 
+  "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+
 npm create vite@latest -- vite
 
