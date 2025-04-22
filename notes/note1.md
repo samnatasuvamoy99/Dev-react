@@ -39,6 +39,7 @@ const router =createBrowserRouter([
 
  ## open cd
  npm install -D tailwindcss@3 postcss autoprefixer
+ 
  npx tailwindcss init -p
   ---> tailwind
 
