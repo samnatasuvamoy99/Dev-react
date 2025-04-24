@@ -42,5 +42,15 @@ const router =createBrowserRouter([
  npx tailwindcss init -p
   ---> tailwind
 
+  "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 npm create vite@latest -- vite
 
+## redud toolkit
+npm install @reduxjs/toolkit
+npm install react-redux
