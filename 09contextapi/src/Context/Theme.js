@@ -8,6 +8,7 @@ import { createContext , useContext } from "react";
 
     export const ThemeProvider =ThemeContext.Provider
 
+     // function ko return  kerne ke liya jo obj  he uska features.......
     export default function useTheme(){
           return useContext(ThemeContext)
     }

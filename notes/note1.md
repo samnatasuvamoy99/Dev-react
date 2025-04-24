@@ -39,16 +39,20 @@ const router =createBrowserRouter([
 
  ## open cd
  npm install -D tailwindcss@3 postcss autoprefixer
+ 
  npx tailwindcss init -p
   ---> tailwind
 
   "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
 
+<<<<<<< HEAD
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+=======
+>>>>>>> 9678fb1e0559c51f11b0b0fee597aba16e6c2bf8
 npm create vite@latest -- vite
 
 ## redud toolkit
