@@ -1,4 +1,4 @@
-## how to create any html ele in js
+            ## how to create any html ele in js
 
 const reactelement = React.createElement(
       'a', // tag name 
@@ -55,6 +55,6 @@ const router =createBrowserRouter([
 >>>>>>> 9678fb1e0559c51f11b0b0fee597aba16e6c2bf8
 npm create vite@latest -- vite
 
-## redud toolkit
+## redux toolkit
 npm install @reduxjs/toolkit
 npm install react-redux
